@@ -1,0 +1,212 @@
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+@media screen and (max-width: 480px) {
+	
+	body {
+		width: 100%;
+	}
+	#goTop {
+		/* display: none; */
+	}
+	#social_fixed {
+		right: -40px;
+	}
+	.container {
+		width: 95%;
+	}
+	#top_header {
+		height: auto;
+	}
+	#top_header p {
+		display: none;
+	}
+	#social_top {
+		max-width: 152px;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	header {
+		height: 70px;
+	}
+	header .container {
+		width: 100%;
+	}
+	header img#logo {
+		height: 70px;
+		width: auto;
+		margin: 0 auto;
+		float: left;
+		padding-left: 15px;
+	}
+	#nav_icon {
+		display: block;
+		float: right;
+		margin-top: 15px;
+		background: #272822;
+		padding: 5px 10px;
+		border-radius: 5px;
+		width: 50px;
+		cursor: pointer;
+		margin-right: 15px;
+		overflow: hidden;
+	}
+	header nav#nav_bar {
+		clear: both;
+		/* display: none; */
+		background: #272822;
+		overflow: hidden;
+		max-height: 300px !important;
+		overflow-Y: scroll;
+	}
+	header nav ul li {
+		display: block;
+		width: 100%;
+	}
+	nav ul li a {
+		width: 100%;
+		color: rgba(255,255,255,.85);
+		border-bottom: 1px solid rgba(255,255,255,.4);
+		border-radius: 0;
+		font-family: "roboto light";
+		line-height: 40px;
+	}
+	nav ul li a:hover {
+		color: #fff;
+	}
+	nav ul li a.active {
+		background: none;
+	}
+	nav ul li:hover ul2 {
+		
+	}
+	nav ul li:hover #ul2 {
+		/* display: none; */
+	}
+	#ul2 {
+		display: none;
+		position: relative;
+		padding: 0 30px;
+		background: #555;
+	}
+	#ul2 li {
+		display: block;
+		width: 100%;
+	}
+	#ul2 li a {
+		display: block;
+		line-height: 40px;
+		border-bottom: 1px solid #444;
+		text-align: center;
+	}
+	section article {
+		width: 100% !important;
+	}
+	#slider_section {
+		display: none;
+	}
+	#service_section h1:before, #service_section h1:after {
+		display: none;
+	}
+	#portfolio_section .portfolio_col {
+		width: 320px;
+		max-width: 100%;
+		display:;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#portfolio_section .portfolio_box {
+		width: 100% !important;
+	}
+	#team_section .team_member {
+		width: 320px !important;
+		max-width: 100% !important;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#contact_section input, #contact_section textarea {
+		width: 100%;
+		margin: 5px 0;
+	}
+	footer {
+		height: auto;
+	}
+	.footer_column {
+		width: 100%;
+		paddin-top: 50px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	#social_bottom {
+		max-width: 100%;
+		width: 192px;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.copyright {text-align: center !important;line-height: 2 !important;padding: 10px 0;}
+
+}
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+
+
+
+
+
+
+
+
+
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
+@media screen and (max-width: 800px) {
+	
+	body {
+		width: 100%;
+	}
+	.container {
+		width: 95%;
+	}
+	#top_header {
+		height: auto;
+	}
+	#top_header p {
+		display: none;
+	}
+	/* #social_top { */
+		/* float: left; */
+		/* margin-left: 25%; */
+	/* } */
+	header nav {
+		/* display: none; */
+	}
+	#about_section article {
+		width: 100%;
+	}
+	#portfolio_section .portfolio_box {
+		width: 50%;
+	}
+	#service_section article {
+		width: 33.33%;
+	}
+	#service_section articel img {
+		max-width: 100% !important;
+	}
+	#team_section .team_member {
+		width: 50%;
+	}
+	#contact_section input, #contact_section textarea {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+}
+/* ------------------------------ */
+/* ------------------------------ */
+/* ------------------------------ */
